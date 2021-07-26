@@ -1,0 +1,48 @@
+/* Colors
+
+default-color: #2BBBAD; // Used for h2 sections
+default-color-dark: #00695c; //Used for portfolio links
+
+*/
+
+
+/* General Styling */
+
+h2 {
+  color: #2BBBAD;
+}
+
+/* Portfolio Links */
+.portfolio-link {
+  color: #00695c;
+}
+
+
+/* Necessary for full page carousel*/
+    html,
+    body,
+    header,
+    .view {
+      height: 100%;
+    }
+
+    /* Carousel*/
+    .carousel,
+    .carousel-item,
+    .carousel-item.active {
+      height: 100%;
+    }
+    .carousel-inner {
+      height: 100%;
+    }
+
+    @media (min-width: 800px) and (max-width: 850px) {
+      .navbar:not(.top-nav-collapse) {
+          background: #1C2331!important;
+      }
+  }
+
+  /* Remove list styling */
+  ul {
+    list-style-type: none;
+  }
